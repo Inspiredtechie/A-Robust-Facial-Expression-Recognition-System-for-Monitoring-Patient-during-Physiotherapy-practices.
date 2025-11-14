@@ -1,1 +1,31 @@
+# Pain_Intensity_leveler
 
+## Data
+└──0_no_pain/(Images of 'no pain' expressions will be saved here by script 1)
+
+└──1_slight/(Images of 'slight pain' expressions will be saved here by script 1)
+
+└──2_mild/(Images of 'mild pain' expressions will be saved here by script 1)
+
+└──3_intense/(Images of 'intense pain' expressions will be saved here by script 1)
+
+## Models
+└── pain_model_hybrid.pkl <-- (This will be created by script 3)
+
+## Output
+└── confusion_matrix_hybrid.png            <-- (This will be created by script 3)
+
+└── pain_report_hybrid.png                 <-- (This will be created by script 4)
+
+└── evaluation_report_hybrid.txt           <-- (This will be created by script 3)
+
+## Runnable files serially
+├── 1_data_collector.py                        <-- (Script to create your custom dataset)
+
+├── 2_feature_extractor_hybrid.py              <-- (Script to process images into features)
+
+├── 3_train_model_hybrid.py                    <-- (Script to train and evaluate the model)
+
+├── 4_run_detector_hybrid.py                   <-- (The final real-time application)
+
+├── features_hybrid.csv                        <-- (This will be created by script 2)
