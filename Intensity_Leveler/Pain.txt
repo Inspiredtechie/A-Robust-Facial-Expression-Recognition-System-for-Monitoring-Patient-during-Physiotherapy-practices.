@@ -23,7 +23,3 @@ Pain_Hybrid/
 ├── 4_run_detector_hybrid.py                   <-- (The final real-time application)
 ├── features_hybrid.csv                        <-- (This will be created by script 2)
 └── requirements.txt                           <-- (Install these libraries)
-
-
-
-Describe
